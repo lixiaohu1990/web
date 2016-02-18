@@ -1,0 +1,98 @@
+.fan-container {
+        position: relative;
+        width: 500px;
+        height: 100px;
+        background-color: #eee;
+        margin: 50px auto;
+        padding: 15px;
+}
+
+.fan-wrapper {}
+
+.fan-wrapper .fan-avatar-box {
+        float: left;
+        text-align: center;
+}
+
+.fan-wrapper .avatar {
+        border-radius: 25px;
+        width: 50px;
+        height: 50px;
+}
+
+.fan-wrapper .fan-name {
+        line-height: 50px;
+}
+
+.fan-wrapper .btn-add {
+        margin-top: 5px;
+        display: block;
+}
+
+.fan-container:hover .fan-message {
+        display: block;
+}
+
+.fan-message {
+        width: 300px;
+        max-height: 200px;
+        background-color: #ddd;
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        display: none;
+        position: absolute;
+}
+
+.fan-message .spanfan {
+        position: absolute;
+        display: block;
+        overflow: hidden;
+        line-height: 20px;
+        margin: 10px 0 0 -20px;
+}
+
+.fan-message .spanfan i {
+        width: 0;
+        height: 0;
+        line-height: 0;
+        font-size: 0;
+        vertical-align: middle;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent #666 transparent transparent;
+}
+
+.fan-message .spanfan em {
+        width: 0;
+        height: 0;
+        line-height: 0;
+        font-size: 0;
+        vertical-align: middle;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent #ddd transparent transparent;
+        margin: 0 0 0 -20px;
+}
+
+.fan-message > header {
+        padding: 10px 5px 5px;
+        border-bottom: 1px solid #b7b7b7;
+}
+
+.fan-message > header > a {
+        text-decoration: none;
+        cursor: pointer;
+}
+
+.fan-message .friends-box {
+        padding: 10px 5px 5px;
+        min-height: 100px;
+}
+
+.fan-message .friends-box h4 {
+        font-weight: normal;
+        font-size: 14px;
+}
